@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="361" height="537" viewBox="0 0 361 537">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(0 -983) translate(0 983)">
+                <g>
+                    <path fill="#00A551" d="M.5.5H67.5V359.5H.5zM134.5.5H201.5V359.5H134.5zM268.5.5H335.5V359.5H268.5z" transform="rotate(90 180.25 180.25)"/>
+                    <path fill="#19AD62" d="M67.5 0.5H134.5V359.5H67.5z" transform="rotate(90 180.25 180.25)"/>
+                    <path fill="#1AAD62" d="M201.5.5H268.5V359.5H201.5zM335.5.5H402.5V359.5H335.5z" transform="rotate(90 180.25 180.25)"/>
+                    <path fill="#00A551" d="M402.5 0.5H469.5V359.5H402.5z" transform="rotate(90 180.25 180.25)"/>
+                    <path fill="#1AAD62" d="M469.5 0.5H536.5V359.5H469.5z" transform="rotate(90 180.25 180.25)"/>
+                </g>
+                <g stroke="#FFF" opacity=".5">
+                    <path d="M37.758 29.339c4.565.125 8.686 1.96 11.698 4.866 3.116 3.006 5.044 7.158 5.044 11.745 0 4.588-1.928 8.74-5.044 11.746-3.012 2.906-7.133 4.741-11.698 4.866h0zM0 0L37.74 0 37.74 90.866 0 90.866" transform="rotate(90 107.25 116.25)"/>
+                    <path d="M0 23.426L16.857 23.426 16.857 65.758 0 65.758" transform="rotate(90 107.25 116.25)"/>
+                </g>
+                <circle cx="178.5" cy="269" r="27" stroke="#FFF" opacity=".5" transform="rotate(90 178.5 269)"/>
+                <path stroke="#FFF" d="M-79 96.5H442V440.5H-79z" opacity=".5" transform="rotate(90 181.5 268.5)"/>
+                <path stroke="#FFF" d="M180.5 97L181.5 440" opacity=".5" transform="rotate(90 181 268.5)"/>
+                <g stroke="#FFF" opacity=".4">
+                    <path d="M37.758 29.339c4.565.125 8.686 1.96 11.698 4.866 3.116 3.006 5.044 7.158 5.044 11.745 0 4.588-1.928 8.74-5.044 11.746-3.012 2.906-7.133 4.741-11.698 4.866h0zM0 0L37.74 0 37.74 90.866 0 90.866" transform="matrix(0 -1 -1 0 226 529.5)"/>
+                    <path d="M0 23.426L16.857 23.426 16.857 65.758 0 65.758" transform="matrix(0 -1 -1 0 226 529.5)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

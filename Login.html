@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Login.css" type="text/css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <!-- Bootstrap JQuery -->
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <!-- Bootstrap JQuery -->
+    <script src="https://kit.fontawesome.com/e58af501a2.js"></script>
+    <!--load all Font Awesome styles -->
+    <link href="FontAwsome/all.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e58af501a2.js"></script>
+    <!-- load Country Flags and Codes -->
+    <link rel="stylesheet" href="css/myCss/intlTelInput.css" />
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+    <script type="text/javascript" src="js/myJS/intlTelInput-jquery.min.js"></script>
+    
+
+    <title>قالب ورزش 3</title>
+  </head>
+  <body>
+    <!-- LoginForm -->
+    <section id="sec_LoginForm" class="container text-center h-100 ">
+      <div class="d-table ps-4 " style="margin: 0 auto; height: 100%; ">
+        <div class="d-table-cell " style="vertical-align: middle ">
+          <div class="row justify-content-center ">
+            <div class="p-5 float-start ">
+              <div class="card p-5 rounded-4 ">
+                <div class="card-body ">
+                  <div class="float-start w-100 col-12 ">
+                    <a href="index">
+                      <img src="Images/logo.png" alt="">
+                    </a>
+                  </div>
+                  <p class="fw-bold mt-4 mb-4 fs-4 w-100 float-start col-12 ">ورود</p>
+                  <div class="w-100 text-start">
+                    <div class="main" dir="ltr">
+                      <div class="form_group">
+                        <label class="d-block pb-2 ps-1 " for="phoneNumber">شماره موبایل</label>
+                        <input dir="ltr" type="tel" id="txtPhone" class="txtbox text-center col-12 " maxlength="15"
+                               required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"  placeholder="-----------" />
+                      </div>
+                      <script type="text/javascript">
+                        $(function () {
+                            var code = "+98"; // Assigning value from model.
+                            $('#txtPhone').val(code);
+                            $('#txtPhone').intlTelInput({
+                                autoHideDialCode: true,
+                                autoPlaceholder: "ON",
+                                // dropdownContainer: document.body,
+                                formatOnDisplay: true,
+                                hiddenInput: "full_number",
+                                initialCountry: "auto",
+                                nationalMode: true,
+                                placeholderNumberType: "MOBILE",
+                                preferredCountries: ['US'],
+                                separateDialCode: true
+                            });
+                        });
+                      </script>
+                    </div>
+                    <button class="btn btn-primary w-100 mt-5 p-2 fs-6 rounded-5 col-12 ">بعدی</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
